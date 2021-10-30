@@ -1,3 +1,8 @@
+# 학습 중단
+- 5.x.x 버전 업데이트 이후 변경된 인터페이스 등의 이유로 기존 학습자료로 따라하기가 어려움
+- 공식 사이트의 예제가 빈약하고 본인의 학습 수준이 낮아 너무 많은 학습 시간 및 커브가 요구된 것으로 예상됨
+- TDD 외 유용할 것이라 인지하는 만큼, 차후 다시 학습할 것이나 현 시점에서는 기간대비 목표에 벗어나므로 중단 하기로 결정
+
 # django_pytest
 [동영상 강의 https://testautomationu.applitools.com/behavior-driven-python-with-pytest-bdd/](https://testautomationu.applitools.com/behavior-driven-python-with-pytest-bdd/)
 
