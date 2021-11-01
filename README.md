@@ -7,4 +7,5 @@
 1. unit_test_basic
 2. introduction_to_pytest
 3. unit_testing_with_pytest
-4. pytest-bdd
+4. pytest-bdd ( 학습 중지 )
+5. django_testing_tutorial_2018
