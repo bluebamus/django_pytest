@@ -13,6 +13,7 @@
 
 1. [Pytest | Django | Gentle Introduction, Setup and Start Testing](https://www.youtube.com/watch?v=LYX6nlECcro&list=PLOLrQ9Pn6caw3ilqDR8_qezp76QuEOlHY&index=6&t=10s)
 2. [Pytest | Django | Introducing Fixtures and Fixture Factory](https://www.youtube.com/watch?v=s8iPADSichU&list=PLOLrQ9Pn6caw3ilqDR8_qezp76QuEOlHY&index=3)
+   1. conftest를 사용하면 반복해서 사용되는 fixture를 사전에 정의, 다양한 테스트 모듈에서 재활용하여 사용 가능함
 3. [Pytest | Django | Introducing Factory Boy and Faker - Fixture Replacement](https://www.youtube.com/watch?v=qrvqNdCDKjM&list=PLOLrQ9Pn6caw3ilqDR8_qezp76QuEOlHY&index=4)
 4. [Towards Parametrizing Fixtures and Test Functions](https://www.youtube.com/watch?v=APhI43fyRHI&list=PLOLrQ9Pn6caw3ilqDR8_qezp76QuEOlHY&index=5)
 5. [Pytest | Selenium | Python Django - Intro Testing with Pytest, Selenium and Django](https://www.youtube.com/watch?v=o_rubsSu-Ds&list=PLOLrQ9Pn6caw3ilqDR8_qezp76QuEOlHY&index=6)
