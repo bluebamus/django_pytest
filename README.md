@@ -29,5 +29,8 @@
 8. [단위 테스트 pytest-django 튜토리얼](https://jadehan.tistory.com/4)
 
 
+### 추가 학습
+1. [Python Faker - Generate Fake Data for a Database with Django Example](https://www.youtube.com/watch?v=8LHdbaV7Dvo)
+
 * django_testing_tutorial_2018는 mixer.blend를 이용해 fixture를 구현, DB 데이터를 사용함
 * django_very_academy_setup_and_start_testing는 conftest.py를 이용하여 fixture factory를 직접 구현, DB 데이터를 사용함 (한번 만든 데이터를 누적, 반복 사용할 수 있음[ini 파일에 옵션 설정이 필요함])
