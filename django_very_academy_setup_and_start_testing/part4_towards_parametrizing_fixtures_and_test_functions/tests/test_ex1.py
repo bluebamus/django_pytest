@@ -1,27 +1,54 @@
 import pytest
-from app1.models import Product
+from django.test import LiveServerTestCase
+from selenium import webdriver
 
-@pytest.mark.parametrize(
-    "title, category, description, slug, regular_price, discount_price, validity",
-    [
-        ("NewTitle", 1, "NewDescription", "slug", "4.99", "3.99", True), # 첫번째 parameter는 pass함
-        #("NewTitle", 1, "NewDescription", "slug", "", "3.99", False), # 두번째 parameter는 regular_price 데이터가 없으므로 에러 발생
-    ],
-)
-#@pytest.mark.django_db
-def test_product_instance(
-    db, product_factory, title, category, description, slug, regular_price, discount_price, validity
-):
+# Example 1
+# class TestBrowser1(LiveServerTestCase):
+#     def test_example(self):
+#         driver = webdriver.Chrome("./chromedriver")
+#         driver.get(("%s%s" % (self.live_server_url, "/admin/")))
+#         assert "Log in | Django site admin" in driver.title
 
-    test = product_factory(
-        title=title,
-        category_id=category,
-        description=description,
-        slug=slug,
-        regular_price=regular_price,
-        discount_price=discount_price,
-    )
 
-    item = Product.objects.all().count()
-    print(item)
-    assert item == validity
+# Example 2
+class TestBrowser2(LiveServerTestCase):
+    def test_example(self):
+        options = webdriver.ChromeOptions()
+        options.add_argument("--headless")
+        driver = webdriver.Chrome(executable_path=r"./chromedriver", options=options)
+        driver.get(("%s%s" % (self.live_server_url, "/admin/")))
+        assert "Log in | Django site admin" in driver.title
+
+# Example 3
+# Fixture for Chrome
+# @pytest.fixture(scope="class")
+# def chrome_driver_init(request):
+
+#     options = webdriver.ChromeOptions()
+#     options.add_argument("--headless")
+#     chrome_driver = webdriver.Chrome(executable_path=r"./chromedriver", options=options)
+#     request.cls.driver = chrome_driver
+#     yield
+#     chrome_driver.close()
+
+
+# @pytest.mark.usefixtures("chrome_driver_init")
+# class Test_URL_Chrome(LiveServerTestCase):
+#     def test_open_url(self):
+#         self.driver.get(("%s%s" % (self.live_server_url, "/admin/")))
+#         assert "Log in | Django site admin" in self.driver.title
+
+
+# @pytest.fixture(params=["chrome", "firefox"], scope="class")
+# def driver_init(request):
+#     if request.param == "chrome":
+#         options = webdriver.ChromeOptions()
+#         options.add_argument("--headless")
+#         web_driver = webdriver.Chrome(executable_path=r"./chromedriver", options=options)
+#     if request.param == "firefox":
+#         options = webdriver.FirefoxOptions()
+#         options.add_argument("--headless")
+#         web_driver = webdriver.Firefox(executable_path=r"./geckodriver", options=options)
+#     request.cls.driver = web_driver
+#     yield
+#     web_driver.close()

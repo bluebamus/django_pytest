@@ -27,6 +27,7 @@
 6. [How to Provide Test Fixtures for Django Models in Pytest](https://realpython.com/django-pytest-fixtures/)
 7.  [Pytest 소개](https://velog.io/@sangyeon217/pytest)
 8. [단위 테스트 pytest-django 튜토리얼](https://jadehan.tistory.com/4)
+9. [End-To-End Tutorial For Pytest Fixtures With Examples](https://www.lambdatest.com/blog/end-to-end-tutorial-for-pytest-fixtures-with-examples/)
 
 
 ### 추가 학습
