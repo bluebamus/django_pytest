@@ -4,11 +4,11 @@
 - TDD 외 유용할 것이라 인지하는 만큼, 차후 다시 학습할 것이나 현 시점에서는 기간대비 목표에 벗어나므로 중단 하기로 결정
 
 # django_pytest
-[동영상 강의 https://testautomationu.applitools.com/behavior-driven-python-with-pytest-bdd/](https://testautomationu.applitools.com/behavior-driven-python-with-pytest-bdd/)
+- [동영상 강의 https://testautomationu.applitools.com/behavior-driven-python-with-pytest-bdd/](https://testautomationu.applitools.com/behavior-driven-python-with-pytest-bdd/)
 
-[github : https://github.com/AndyLPK247/tau-pytest-bdd ](https://github.com/AndyLPK247/tau-pytest-bdd)
+- [github : https://github.com/AndyLPK247/tau-pytest-bdd ](https://github.com/AndyLPK247/tau-pytest-bdd)
 
-[pytest-bdd pypl](https://pypi.org/project/pytest-bdd/)
+- [pytest-bdd pypl](https://pypi.org/project/pytest-bdd/)
 
 # BDD TEST의 정의
 [참고 사이트 www.popit.kr](https://www.popit.kr/bdd-behaviour-driven-development%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B0%84%EB%9E%B5%ED%95%9C-%EC%A0%95%EB%A6%AC/)

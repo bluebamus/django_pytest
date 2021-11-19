@@ -5,6 +5,12 @@
 # 학습 순서
 > 학습 순서는 제가 임의로 정한 순서이며, 순서상 이전 학습으로 불필요하다 생각된 내용은 이후 프로젝트에서 code로 다루지 않았습니다.
 
+# 라이브러리별 공식 사이트
+1. [factoryboy](https://factoryboy.readthedocs.io/en/stable/reference.html)
+2. [faker](https://faker.readthedocs.io/en/master/)
+3. [pytest-django](https://pytest-django.readthedocs.io/en/latest/)
+4. [pytest 1](https://docs.pytest.org/en/6.2.x/)
+5. [pytest 2](https://docs.pytest.org/en/6.2.x/contents.html)
 # pytest 기초
 1. [unit_testing_with_pytest *](https://coursesfree.org/course/python-3-unit-testing-with-pytest/)
 2. [unit_test_basic](https://dev-jacob.tistory.com/entry/Django-%EC%9C%A0%EB%8B%9B-%ED%85%8C%EC%8A%A4%ED%8A%B8-with-Pytest-1)
@@ -29,6 +35,13 @@
 8. [단위 테스트 pytest-django 튜토리얼](https://jadehan.tistory.com/4)
 9. [End-To-End Tutorial For Pytest Fixtures With Examples](https://www.lambdatest.com/blog/end-to-end-tutorial-for-pytest-fixtures-with-examples/)
 
+
+# 옵션 기록
+### durations
+- pytest --durations=0 — Show all times for tests and setup and teardown
+- pytest --durations=1 — Just show me the slowest
+- pytest --durations=50 — Slowest 50, with times, … etc
+- 참고 : https://stackoverflow.com/questions/27884404/printing-test-execution-times-and-pinning-down-slow-tests-with-py-test
 
 ### 추가 학습
 1. [Python Faker - Generate Fake Data for a Database with Django Example](https://www.youtube.com/watch?v=8LHdbaV7Dvo)

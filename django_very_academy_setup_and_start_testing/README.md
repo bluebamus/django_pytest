@@ -1,6 +1,6 @@
 # django_pytest
-[Pytest | Django | Gentle Introduction, Setup and Start Testing](https://www.youtube.com/watch?v=LYX6nlECcro&t=5s)
-[github](https://github.com/veryacademy/pytest-mastery-with-django)
+- [Pytest | Django | Gentle Introduction, Setup and Start Testing](https://www.youtube.com/watch?v=LYX6nlECcro&t=5s)
+- [github](https://github.com/veryacademy/pytest-mastery-with-django)
 * github와 영상의 source code 내용이 차이가 있다. 비교하며 사용해도 득이 될듯
 # python Testing Frameworks
 - Robot
