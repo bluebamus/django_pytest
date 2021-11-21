@@ -21,19 +21,17 @@
 2. [django_very_academy_setup_and_start_testing ***](https://www.youtube.com/watch?v=LYX6nlECcro&t=5s)
 3. [django_besnard_consulting_testing](https://www.youtube.com/watch?v=6pYrwjAMXmE)
 4. [django_kenyan_engineer_pytest_django_and_django_rest_framework](https://www.youtube.com/watch?v=KIIdbVs7e8I&list=PLP1DxoSC17LZTTzgfq0Dimkm6eWJQC9ki) * rest 프로젝트 이후 학습 예정
-5. [django_code_evergreen_pytest_django_unittest](https://www.youtube.com/watch?v=X3L0kiZWjoU)
-6. [Jonghyun Park: 파이썬에서 편하게 테스트 케이스 작성하기: pytest, Travis CI, 그리고 도커](https://www.youtube.com/watch?v=rxCjxX4tT1E&t=1696s)
+5. [Jonghyun Park: 파이썬에서 편하게 테스트 케이스 작성하기: pytest, Travis CI, 그리고 도커](https://www.youtube.com/watch?v=rxCjxX4tT1E&t=1696s)
 
 ### Blog/Site :: pytest with django Study
 1. [Selenium WebDriver with Python](https://testautomationu.applitools.com/selenium-webdriver-python-tutorial/)
-2. [Getting started with pytest and pytest-django](https://pytest-django.readthedocs.io/en/latest/tutorial.html)
-3. [PyTest 프레임워크 기초 사용법](https://jangseongwoo.github.io/test/pytest_basic/)
-4. [PYTEST DOCUMENT](https://mjyoo2.github.io/pytest_document_KR/pytest%20document/installation-and-getting-start/)
-5. [Effective Python Testing With Pytest](https://realpython.com/pytest-python-testing/)
-6. [How to Provide Test Fixtures for Django Models in Pytest](https://realpython.com/django-pytest-fixtures/)
-7.  [Pytest 소개](https://velog.io/@sangyeon217/pytest)
-8. [단위 테스트 pytest-django 튜토리얼](https://jadehan.tistory.com/4)
-9. [End-To-End Tutorial For Pytest Fixtures With Examples](https://www.lambdatest.com/blog/end-to-end-tutorial-for-pytest-fixtures-with-examples/)
+2. [PyTest 프레임워크 기초 사용법](https://jangseongwoo.github.io/test/pytest_basic/)
+3. [PYTEST DOCUMENT](https://mjyoo2.github.io/pytest_document_KR/pytest%20document/installation-and-getting-start/)
+4. [Effective Python Testing With Pytest](https://realpython.com/pytest-python-testing/)
+5. [How to Provide Test Fixtures for Django Models in Pytest](https://realpython.com/django-pytest-fixtures/)
+6.  [Pytest 소개](https://velog.io/@sangyeon217/pytest)
+7. [단위 테스트 pytest-django 튜토리얼](https://jadehan.tistory.com/4)
+8. [End-To-End Tutorial For Pytest Fixtures With Examples](https://www.lambdatest.com/blog/end-to-end-tutorial-for-pytest-fixtures-with-examples/)
 
 
 # 옵션 기록
