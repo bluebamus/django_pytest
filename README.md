@@ -18,7 +18,7 @@
 4. pytest-bdd ( 학습 중지 )
 ### youtube :: pytest with django Study
 1. [django_testing_tutorial_2018 *](https://www.youtube.com/watch?v=B-qYGeLpUtE&t=5s)
-2. [django_very_academy_setup_and_start_testing ***](https://www.youtube.com/watch?v=LYX6nlECcro&t=5s)
+2. [django_very_academy_setup_and_start_testing ***](https://www.youtube.com/watch?v=LYX6nlECcro&list=PLOLrQ9Pn6caw3ilqDR8_qezp76QuEOlHY)
 3. [django_besnard_consulting_testing](https://www.youtube.com/watch?v=6pYrwjAMXmE)
 4. [django_kenyan_engineer_pytest_django_and_django_rest_framework](https://www.youtube.com/watch?v=KIIdbVs7e8I&list=PLP1DxoSC17LZTTzgfq0Dimkm6eWJQC9ki) * rest 프로젝트 이후 학습 예정
 5. [Jonghyun Park: 파이썬에서 편하게 테스트 케이스 작성하기: pytest, Travis CI, 그리고 도커](https://www.youtube.com/watch?v=rxCjxX4tT1E&t=1696s)
