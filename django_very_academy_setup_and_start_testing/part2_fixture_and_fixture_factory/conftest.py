@@ -1,12 +1,13 @@
 import pytest
-
 from django.contrib.auth.models import User
+
 
 @pytest.fixture()
 def user_1(db):
     user = User.objects.create_user("test-user")
-    print('create-user')
+    print("create-user")
     return user
+
 
 @pytest.fixture
 def new_user_factory(db):
@@ -31,12 +32,15 @@ def new_user_factory(db):
             is_active=is_active,
         )
         return user
+
     return create_app_user
+
 
 @pytest.fixture
 def new_user1(db, new_user_factory):
-    return new_user_factory("Test_user","password","MyName")
+    return new_user_factory("Test_user", "password", "MyName")
+
 
 @pytest.fixture
 def new_user2(db, new_user_factory):
-    return new_user_factory("Test_user","password", "MyName", is_staff="True")
+    return new_user_factory("Test_user", "password", "MyName", is_staff="True")
