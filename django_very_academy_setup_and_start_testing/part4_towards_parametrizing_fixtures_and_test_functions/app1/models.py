@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
+
 class Category(models.Model):
     name = models.CharField(
         max_length=255,
@@ -9,10 +10,12 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
+
 class Product(models.Model):
     """
     The Product table contining all product items.
     """
+
     title = models.CharField(
         verbose_name=_("title"),
         help_text=_("Required"),
@@ -50,6 +53,10 @@ class Product(models.Model):
     )
     created_at = models.DateTimeField(_("Created at"), auto_now_add=True, editable=False)
     updated_at = models.DateTimeField(_("Updated at"), auto_now=True)
+
+    # def clean(self):
+    #     if self.regular_price == "":
+    #         raise ValidationError({"website": "Joe must have a website"})
 
     def __str__(self):
         return self.title

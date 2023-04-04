@@ -9,6 +9,5 @@ register(CategoryFactory)
 
 @pytest.fixture
 def new_user1(db, user_factory):
-    #user = user_factory.build()
     user = user_factory.create()
     return user

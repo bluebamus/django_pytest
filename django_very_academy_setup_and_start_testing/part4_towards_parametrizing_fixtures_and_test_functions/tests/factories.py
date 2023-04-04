@@ -1,9 +1,10 @@
 import factory
 from faker import Faker
+
 fake = Faker()
 
-from django.contrib.auth.models import User 
 from app1 import models
+from django.contrib.auth.models import User
 
 
 class UserFactory(factory.django.DjangoModelFactory):
@@ -26,7 +27,7 @@ class ProductFactory(factory.django.DjangoModelFactory):
         model = models.Product
 
     title = 'product_title'
-    category = factory.SubFactory(CategoryFactory) 
+    category = factory.SubFactory(CategoryFactory)
     description = fake.text()
     slug = 'product_slug'
     regular_price = '9.99'
