@@ -26,18 +26,25 @@ def driver_init(request):
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")
         options.add_argument("--window-size=1920,1080")
-        web_driver = webdriver.Chrome(executable_path=r"./chromedriver", options=options)
+        web_driver = webdriver.Chrome(
+            executable_path=r"./chromedriver", options=options
+        )
         request.cls.browser = "Chrome1920x1080"
     if request.param == "chrome411":
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")
         options.add_argument("--window-size=411,823")
-        web_driver = webdriver.Chrome(executable_path=r"./chromedriver", options=options)
+        web_driver = webdriver.Chrome(
+            executable_path=r"./chromedriver", options=options
+        )
         request.cls.browser = "Chrome411x823"
     if request.param == "firefox":
         options = webdriver.FirefoxOptions()
         options.add_argument("--headless")
-        web_driver = webdriver.Firefox(executable_path=r"./geckodriver", options=options)
+        options.binary_location = r"C:/Program Files/Mozilla Firefox/firefox.exe"
+        web_driver = webdriver.Firefox(
+            executable_path=r"./geckodriver", options=options
+        )
         request.cls.browser = "Firefox"
     request.cls.driver = web_driver
     yield
