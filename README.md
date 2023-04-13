@@ -34,6 +34,7 @@
 6.  [Pytest 소개](https://velog.io/@sangyeon217/pytest)
 7. [단위 테스트 pytest-django 튜토리얼](https://jadehan.tistory.com/4)
 8. [End-To-End Tutorial For Pytest Fixtures With Examples](https://www.lambdatest.com/blog/end-to-end-tutorial-for-pytest-fixtures-with-examples/)
+9. [pytest-mock sample들 *](https://rumbarum.github.io/posts/pytest/pytest-mock/)
 
 
 # 옵션 기록
